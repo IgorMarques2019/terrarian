@@ -1,0 +1,36 @@
+* {
+    margin:0;
+    
+    padding:0;
+}
+
+html,body{
+    height:100%;
+}
+.about-img {
+    width:100px;
+}
+
+#blocks-card {
+    
+}
+#blocks-card .card-img-overlay > p  {
+font-size:0.9em;
+} 
+
+
+
+
+@media (max-width:575.98px) {
+   html,body{
+       height:auto;
+   }
+   .about-title {
+       font-size:20px;
+       text-align: center;
+   }
+  
+ .about-img {
+     display:none;
+ }
+}
